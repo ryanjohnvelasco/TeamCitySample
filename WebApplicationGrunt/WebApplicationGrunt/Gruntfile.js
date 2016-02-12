@@ -1,4 +1,4 @@
-/// <binding />
+/// <binding AfterBuild='default' />
 module.exports = function (grunt) {
     'use strict';
     // Project configuration
