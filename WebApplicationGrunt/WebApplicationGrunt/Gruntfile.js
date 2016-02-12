@@ -1,10 +1,5 @@
 /// <binding />
 module.exports = function (grunt) {
-    console.log('process.env.NODE_ENV = ' + process.env.NODE_ENV);
-    if (process.env.NODE_ENV && process.env.NODE_ENV !== 'Release') {
-        return;
-    }
-
     'use strict';
     // Project configuration
     grunt.initConfig({
