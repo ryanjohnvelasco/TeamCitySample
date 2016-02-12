@@ -115,7 +115,7 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
-    <Content Include="README.md" />
+    <None Include="Properties\PublishProfiles\Profile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
