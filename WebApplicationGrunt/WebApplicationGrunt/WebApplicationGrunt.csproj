@@ -175,8 +175,7 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>grunt default</PostBuildEvent>
   </PropertyGroup>
   <Target Name="BeforeBuild">
   </Target>
